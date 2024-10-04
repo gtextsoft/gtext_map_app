@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MapPinIcon, HomeIcon, CubeIcon, Box, PhoneIcon } from "lucide-react";
+import holdinglogo from '../assets/holdinglogo.png';
 
 const HomePage = () => {
   return (
@@ -8,7 +9,11 @@ const HomePage = () => {
       {/* Header */}
       <header className="bg-white shadow-md fixed w-full z-10">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-3xl font-bold text-red-600">GtextHoldings</div>
+          <img
+            src={holdinglogo}
+            alt="GtextHoldings Logo"
+            style={{ height: "100px", width: "auto" }}
+          />
           <nav>
             <ul className="flex space-x-6">
               {[
