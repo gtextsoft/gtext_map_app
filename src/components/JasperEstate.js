@@ -5,7 +5,6 @@ import JASPER3D from "../assets/JASPER3D.jpg";
 
 const JasperEstate = () => {
   const [activeTab, setActiveTab] = useState("info");
-
   const estateInfo = {
     name: "Jasper Ibeju Lekki",
     description:
